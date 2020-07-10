@@ -21,6 +21,6 @@ deploy:
   provider: heroku
   api_key: 
     secure: 573cbf2b-e333-427f-90b6-755343cf08f5
-  app: cicd-demo
+  app: cicd-demo2
   on: 
     repo: sourabhdaffodil/heroku-test-app
