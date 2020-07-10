@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commits group component Must render an empty list 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitGroup
+    commits={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [],
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [],
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Commits group component Must render list of commits 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CommitGroup
+    commits={
+      Array [
+        Object {
+          "_id": "59d678d9f51fea02ea1209b7",
+          "date": 2016-06-04T00:00:00.000Z,
+          "description": "Description...",
+          "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+          "hashAlias": "d909438",
+          "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+          "title": "A title",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": null,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Commit
+          commit={
+            Object {
+              "_id": "59d678d9f51fea02ea1209b7",
+              "date": 2016-06-04T00:00:00.000Z,
+              "description": "Description...",
+              "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+              "hashAlias": "d909438",
+              "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+              "title": "A title",
+            }
+          }
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "59d678d9f51fea02ea1209b7",
+        "nodeType": "class",
+        "props": Object {
+          "commit": Object {
+            "_id": "59d678d9f51fea02ea1209b7",
+            "date": 2016-06-04T00:00:00.000Z,
+            "description": "Description...",
+            "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+            "hashAlias": "d909438",
+            "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+            "title": "A title",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": null,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Commit
+            commit={
+              Object {
+                "_id": "59d678d9f51fea02ea1209b7",
+                "date": 2016-06-04T00:00:00.000Z,
+                "description": "Description...",
+                "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+                "hashAlias": "d909438",
+                "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+                "title": "A title",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "59d678d9f51fea02ea1209b7",
+          "nodeType": "class",
+          "props": Object {
+            "commit": Object {
+              "_id": "59d678d9f51fea02ea1209b7",
+              "date": 2016-06-04T00:00:00.000Z,
+              "description": "Description...",
+              "hash": "d9094385acf7d47c7c5c6f7ceb6866b54f9b602d",
+              "hashAlias": "d909438",
+              "image": "https://avatars0.githubusercontent.com/u/4216535?v=4&s=72",
+              "title": "A title",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

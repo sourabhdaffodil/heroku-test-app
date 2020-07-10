@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+  - 12.18.2
+script: 
+  - "npm run lint"
+  - "npm run test"
+
+# blocklist
+branches:
+  except:
+  - legacy
+  - experimental
+
+# safelist
+branches:
+  only:
+  - master
+  - stable
+
+deploy:
+  provider: heroku
+  api_key: 
+    secure: 573cbf2b-e333-427f-90b6-755343cf08f5
+  app: cicd-demo
+  on: 
+    repo: sourabhdaffodil/heroku-test-app
