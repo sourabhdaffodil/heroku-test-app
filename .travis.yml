@@ -5,17 +5,17 @@ script:
   - "npm run lint"
   - "npm run test"
 
-# blocklist
-branches:
-  except:
-  - legacy
-  - experimental
+# # blocklist
+# branches:
+#   except:
+#   - legacy
+#   - experimental
 
-# safelist
-branches:
-  only:
-  - master
-  - stable
+# # safelist
+# branches:
+#   only:
+#   - master
+#   - stable
 
 deploy:
   provider: heroku
